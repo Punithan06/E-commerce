@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 
 function App() {
     return (
+        
         <Router>
             <div className="min-h-screen bg-gray-50 flex flex-col">
                 <Navbar />
