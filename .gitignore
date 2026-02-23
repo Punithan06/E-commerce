@@ -1,5 +1,10 @@
 # Created by Antigravity - Comprehensive .gitignore for Product Listing Website
-
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+.env
+node_modules/
 ### Python/Django ###
 __pycache__/
 *.py[cod]
