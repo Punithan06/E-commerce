@@ -1,0 +1,80 @@
+# Created by Antigravity - Comprehensive .gitignore for Product Listing Website
+
+### Python/Django ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+staticfiles/
+
+# Virtual Environment
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### Node/Frontend ###
+node_modules/
+jspm_packages/
+.npm
+.eslintcache
+.stylelintcache
+.cache
+.parcel-cache
+.next
+out/
+build/
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### Environment Variables ###
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+### IDE/Editors ###
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
